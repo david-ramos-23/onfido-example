@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+    "typeRoots": ["types_polyfills", "node_modules/@types"]
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["**/*.test.ts", "**/*.test.tsx"]
+}

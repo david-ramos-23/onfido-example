@@ -1,0 +1,36 @@
+{
+  "name": "@afterpaytouch/identity",
+  "version": "1.2.1",
+  "author": "",
+  "description": "Identity",
+  "homepage": "https://github.com/AfterpayTouch/rocketship#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfterpayTouch/rocketship.git"
+  },
+  "keywords": [
+    "identity"
+  ],
+  "bugs": {
+    "url": "https://github.com/AfterpayTouch/rocketship/issues"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "onfido-sdk-ui": "^11.0.0",
+    "rollup": "^2.60.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "@types/react": "^17.0.14"
+  }
+}

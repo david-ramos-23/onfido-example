@@ -1,0 +1,14 @@
+{
+  "prettier.requireConfig": true,
+  "files.insertFinalNewline": true,
+  // The following rules can be copied and pasted into your VSCode user settings.
+  // We are not enforcing them on the workspace as linting is done as part of a pre-commit hook.
+  //
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.stylelint": true
+  // }
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc.json"
+  },
+}
